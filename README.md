@@ -68,20 +68,6 @@ source ~/.bashrc
 - `t` - Toggle trash. When enabled - removed content goes to Trash bin.
 - `q` - Quit
 
-## 🗑️ Uninstallation
-
-Running the below command will globally uninstall the `dwipe` binary.
-
-```bash
-cargo uninstall dwipe
-```
-
-Remove the project repo
-
-```bash
-rm -rf /path/to/git/clone/dwipe
-```
-
 ## 🤝 How to contribute
 
 We welcome contributions!
