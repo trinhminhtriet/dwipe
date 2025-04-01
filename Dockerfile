@@ -31,7 +31,6 @@ LABEL org.opencontainers.image.ref.name="${PACKAGE}" \
   org.opencontainers.image.licenses="MIT" \
   org.opencontainers.image.source="https://github.com/${PACKAGE}"
 
-
 COPY --from=builder /app/target/release/dwipe /bin/dwipe
-
+WORKDIR /workdir
 ENTRYPOINT ["dwipe"]
