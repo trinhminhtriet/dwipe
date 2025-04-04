@@ -5,11 +5,11 @@ authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
 license = "MIT"
 edition = "2021"
 description = "Fast, cross-platform disk cleanup tool with interactive UI"
+homepage = "https://trinhminhtriet.com"
 repository = "https://github.com/trinhminhtriet/dwipe"
 readme = "README.md"
 keywords = ["disk", "cleanup", "storage", "interactive", "tui"]
 categories = ["command-line-utilities", "filesystem"]
-
 
 [dependencies]
 crossbeam = "0.8.4"
