@@ -10,8 +10,8 @@ new_version="$major.$minor.$new_patch"
 tag_name="v$new_version"
 
 if [ -z "$new_version" ]; then
-    echo "New version required as argument"
-    exit 1
+	echo "New version required as argument"
+	exit 1
 fi
 
 echo ">>> Bumping version"

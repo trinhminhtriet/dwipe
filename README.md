@@ -57,6 +57,15 @@ source ~/.bashrc
 
 `dwipe [PATH]`
 
+#### vie Docker
+
+with [Docker Hub](https://hub.docker.com/repository/docker/trinhminhtriet/dwipe)
+
+```sh
+docker pull trinhminhtriet/dwipe
+docker run --rm -v "${PWD}":/workdir trinhminhtriet/dwipe .
+```
+
 ## Keybindings
 
 - `jk/↓↑` - Navigate up/down
