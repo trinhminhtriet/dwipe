@@ -10,15 +10,15 @@ new_version="$major.$minor.$new_patch"
 tag_name="v$new_version"
 
 if [ -z "$new_version" ]; then
-    echo "New version required as argument"
-    exit 1
+	echo "New version required as argument"
+	exit 1
 fi
 
 echo ">>> Bumping version"
 sed -i.bak "s/version = \"$current_version\"/version = \"$new_version\"/" Cargo.toml
 rm Cargo.toml.bak
 
-sleep 5
+sleep 10
 
 echo ">>> Commit"
 git add Cargo.toml Cargo.lock
