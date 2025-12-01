@@ -17,7 +17,7 @@ crossterm = { version = "0.29.0", features = ["event-stream"] }
 futures = "0.3.31"
 jwalk = "0.8.1"
 num_cpus = "1.17.0"
-open = "5.3.2"
+open = "5.3.3"
 opener = { version = "0.8.3", default-features = false }
 ratatui = "0.27.0"
 trash = "5.2.5"
