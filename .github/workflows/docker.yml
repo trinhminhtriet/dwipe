@@ -34,7 +34,7 @@ jobs:
 
       - name: Log in to the Container registry
         if: github.event_name == 'tag' || (github.ref == 'refs/heads/master' && github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'docker'))
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
